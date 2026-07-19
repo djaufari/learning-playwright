@@ -27,6 +27,7 @@ export class HomePage {
 
     async navigateHome(){
         await this.homeTab.click();
+        await this.sortText.scrollIntoViewIfNeeded();
         await expect(this.sortText).toBeVisible();
     }
 
