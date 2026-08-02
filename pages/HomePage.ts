@@ -38,10 +38,12 @@ export class HomePage {
 
     async verifyAscending(){
         await this.verifyProductVisible('Adjustable Wrench','Angled Spanner','Belt Sander');
+        await this.homePage.waitForTimeout(500)
     }
 
     async verifyDescending(){
         await this.verifyProductVisible('Wood Saw','Wood Carving Chisels','Washers');
+        await this.homePage.waitForTimeout(500)
     }    
 
 

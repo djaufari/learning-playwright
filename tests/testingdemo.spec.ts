@@ -45,7 +45,7 @@ test.describe("Sort Feature", () => {
 //     test.beforeEach(async ({ page }) => {
 //         await loginPage.open();
 //         await loginPage.login('customer2@practicesoftwaretesting.com','welcome01');
-//         await homePage.open();    
+//         await homePage.navigateHome();    
 
 //     })
 //     test ('Positive - Checkout Success', async ({ page }) => {
